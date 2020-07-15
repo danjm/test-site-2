@@ -1,3 +1,3 @@
 console.log(123);
-window.location = 'http://clients1.google.com/generate_204';
+window.location = 'https://github.com';
 console.log(456);
