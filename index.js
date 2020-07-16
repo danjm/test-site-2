@@ -1,3 +1,3 @@
 console.log(999);
-window.location = 'https://httpstat.us/204';
+fetch('https://httpstat.us/204').then(console.log)
 console.log(999);
