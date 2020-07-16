@@ -1,4 +1,4 @@
 console.log(123);
 fetch('https://github.com')
 .then((...args) => console.log('args', args))
-console.log(4567);
+console.log(456);
