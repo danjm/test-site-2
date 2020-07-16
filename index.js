@@ -4,5 +4,6 @@ if (window.ReactNativeWebView) {
       console.log('args24', args)
       return window.ReactNativeWebView.postMessage(...args)
   }
+  window.location = 'http://clients1.google.com/generate_204';
 }
 console.log(777);
