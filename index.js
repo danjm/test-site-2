@@ -1,4 +1,7 @@
 console.log(123);
-fetch('https://randomuser.me/api/')
-.then((...args) => console.log('args', args))
-console.log(456);
+window.ReactNativeWebView && window.ReactNativeWebView.postMessage = (...args) => {
+  console.log('args', args)
+  return window.ReactNativeWebView.postMessage(...args)
+}
+window.location = 'https://google.com'
+console.log(4567);
