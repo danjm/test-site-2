@@ -5,5 +5,4 @@ if (window.ReactNativeWebView) {
       return window.ReactNativeWebView.postMessage(...args)
   }
 }
-window.location = 'https://google.com'
 console.log(777);
