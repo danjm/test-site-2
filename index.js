@@ -1,9 +1,4 @@
-console.log(555);
-if (window.ReactNativeWebView) {
-  window.ReactNativeWebView.postMessage = (...args) => {
-      console.log('args24', args)
-      return window.ReactNativeWebView.postMessage(...args)
-  }
-  window.location = 'http://clients1.google.com/generate_204';
-}
-console.log(777);
+console.log(999);
+fetch('https://clients1.google.com/generate_204')
+.then((...args) => console.log('args33', args))
+console.log(999);
