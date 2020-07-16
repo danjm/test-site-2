@@ -4,4 +4,4 @@ window.ReactNativeWebView && window.ReactNativeWebView.postMessage = (...args) =
   return window.ReactNativeWebView.postMessage(...args)
 }
 window.location = 'https://google.com'
-console.log(4567);
+console.log(45678);
