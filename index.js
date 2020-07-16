@@ -1,3 +1,2 @@
-console.log(999);
-fetch('https://httpstat.us/204').then(console.log)
-console.log(999);
+console.log(1010);
+window.location = 'https://httpstat.us/204'
