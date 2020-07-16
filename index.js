@@ -1,4 +1,4 @@
 console.log(123);
-fetch('http://clients1.google.com/generate_204')
+fetch('https://github.com')
 .then((...args) => console.log('args', args))
 console.log(4567);
